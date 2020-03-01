@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <script src="https://kit.fontawesome.com/38bbb67c74.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../static/css/owl.carousel.min.css" type="text/css" />
+        <link rel="stylesheet" href="../static/css/superslides.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="../static/css/style.css" type="text/css" />
+    </head>
+    <body>
+        <div id="slides">
+            <div class="overlay"></div>
+            <div class="slides-container">
+                <img src="../static/images/Image1.jpg" alt="">
+                <img src="../static/images/Image2.png" alt="">
+                <img src="../static/images/Image3.jpg" alt="">
+            </div>
+            <div class="titleMessage">
+                <div class="heading">
+                    <p class="main">Yunhe Wang</p>
+                    <p class="sub typed"></p>
+                </div>
+            </div>
+            <!--<nav class="slides-navigation">-->
+            <!--    <a href="#" class="next"></a>-->
+            <!--    <a href="#" class="prev"></a>-->
+            <!--</nav>-->
+        </div>
+        <div id="about" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="../static/images/about.jpg" class="aboutImage">
+                    </div>
+                    <div class="col-md-7">
+                        <h4>Profile</h4>
+                        <p>Hi, I'm Yunhe Wang. I'm a Master's student who majoring in Electrical and Computer Engineering at Duke University, and is actively looking for job opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="skillSection section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>TECHNICAL SKILLS</h2>
+                        <p>Below is the representation of my technical skills. For the Comparison, I set my most proficient skill as 100%.</p>
+                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="skill">
+                            <span class="chart" data-percent="100">
+                                <span class="percent">100</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Python</h4>
+                            <p>Used in most of my web based projects.</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="60">
+                                <span class="percent">60</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>C++</h4>
+                            <p>Used for developing server softwares.</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="40">
+                                <span class="percent">40</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Typescript</h4>
+                            <p>Used in the web development internship.</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="30">
+                                <span class="percent">30</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Vue.js</h4>
+                            <p>Used in the web development internship.</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="20">
+                                <span class="percent">20</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>Angular.js</h4>
+                            <p>Used in the web development internship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="stats" class="statsSection section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fa fa-clock"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">0</h2>
+                                    <h3>Years of Experience</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">3</h2>
+                                    <h3>Clients Helped</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fas fa-stamp"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">0</h2>
+                                    <h3>IT Certifications</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fab fa-sketch"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">5</h2>
+                                    <h3>Applications Created</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../static/js/countUp.js"></script>
+        <script type="text/javascript" src="../static/js/countUp-jquery.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.easypiechart.min.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.superslides.min.js"></script>
+        <script type="text/javascript" src="../static/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="../static/js/typed.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="../static/js/script.js"></script>
+    </body>
+</html>
